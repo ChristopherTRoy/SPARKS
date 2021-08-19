@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TSF BANK</title>
+  <style>
+    html {
+  scroll-behavior: smooth;
+}
+ 
+   a{
+     font-size:150%;
+     font-style: bold;
+   font-family: unset;
+   }
+   .img
+   {
+    padding: 20% 0;
+    padding-left: 15%;
+    font-weight: bolder;
+    text-align: left;
+    font-size:300%;
+    background-image: url("https://cdn.corporatefinanceinstitute.com/assets/cash-money.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(4, 37, 107);
+  
+    }
+  @media only screen and (max-width: 700px) {
+  .img {
+       font-size:200%;
+       }
+  }
+  @media only screen and (max-width: 500px) {
+  .img {
+       font-size:100%;
+       }
+  }
+  @media only screen and (max-width: 350px) {
+  .img {
+       font-size:50%;
+       }
+  }
+  p{
+    font-size:130%;
+    text-align: justify;
+    color:#555;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .headings
+  {
+    text-align: center;
+    font-size:300%;
+    padding: 2%;
+    font-weight: bolder;
+    
+  }
+  #more{
+    display: none;
+}
+figure{
+            text-align: center;
+            font-size: 180%;
+        }
+        #services{
+          background-color: rgba(3, 87, 24, 0.9);
+          color:white;
+        }
+
+
+
+</style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+<!--Javascript that we might require -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"> </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!--This is the home page of our website-->
+
+  <!--Navbar-->
+  <section id="nav-bar">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <!---logo is here-->
+        <a class="navbar-brand" href="#"><img src="https://images-platform.99static.com//_uV0ROWA5nYX1fri6fg3W05cYJA=/284x0:1784x1500/fit-in/500x500/99designs-contests-attachments/62/62702/attachment_62702349" width="10%"> &nbsp;<b>The Sparks Foundation Bank</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <!--.ml-auto class pushes the elements right-side -->
+        <ul class="navbar-nav ml-auto" >
+            <li class="nav-item ">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">SERVICES</a>
+            </li>
+             
+        </ul>
+       </div>
+      </nav>
+</section>
+
+<!--home cover image -->
+<div class="img">
+  WELCOME TO SPARKS FOUNDATION BANK
+</div>
+
+<!--About-->
+<section id="about">
+  <div class="headings">About us</div>
+    <div class="container">
+        <div class="row">
+          <div class="col-12 col-12 col-lg-6">
+            <!--https://besthqwallpapers.com/img/original/53481/glass-bank-with-coins-piggy-bank-savings-money-concepts-finance-saving-concept.jpg-->
+            <img src="https://wallpaperaccess.com/full/2311974.jpg" width="100%">
+          </div>
+          <div>
+            <p>The Sparks Foundation Bank (TSF)  a Fortune 700 company, is a  Multinational, Public Sector Banking and Financial services statutory body headquartered in Mumbai. The rich heritage and legacy of over 200 years, accredits TSF as the most trusted Bank by people through generations.
+
+                TSF, the largest  Bank with 1/4th market share, serves over 44 million customers through its vast network of over 2,000 branches, 69,811 ATMs, 19,000 BC outlets, with an undeterred focus on innovation, and customer centricity, which stems from the core values of the Bank - Service, Transparency, Ethics, Politeness and Sustainability.
+                
+            </p>
+            <p> The Bank has successfully diversified <span id="dots">....</span> <span id="more">businesses through its 12 subsidiaries i.e TSF General Insurance, TSF Life Insurance, TSF Mutual Fund, TSF Card, etc. It has spread its presence globally and operates across time zones through 233 offices in 32 foreign countries.
+                
+                Growing with times, TSF continues to redefine banking in India, as it aims to offer responsible and sustainable Banking solutions.
+                </span>
+                </p>
+                <button onclick="myfun1()"  class="btn btn-primary" onclick="myfun1()" id="but"> Read more </button><br><br><br><br>
+          </div>
+        </div>
+      </div>
+      </section>
+
+<!--Services-->
+<section id="services">
+  
+
+    <h2 class="headings">Our Services</h2>
+    <div class="container">
+        <div class="row row-cols-2">
+          <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-4 "><a href="transfer.php"><img class="img-thumbnail img-responsive" src="https://cdn2.slidemodel.com/wp-content/uploads/20378-01-money-transfer-illustration-for-powerpoint-16x9-1.jpg"  width="200%" alt="image"></a> <figcaption> TRANSFER FUNDS</figcaption> </figure>
+          <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-4 "><a href="viewcustomers.php"><img class="img-thumbnail img-responsive" src="https://media.istockphoto.com/photos/protecting-stacked-banknotes-surrounded-by-human-figures-picture-id1189508306?k=6&m=1189508306&s=612x612&w=0&h=uVBkGPDuwiAZLDN-6Y0kEKix3ytPWIO_GXR03adDRkk=" width="200%" alt="image"></a> <figcaption> ACCOUNT HOLDERS</figcaption> </figure>
+          <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-4 "><a href="history.php"><img class="img-thumbnail img-responsive" src="https://www.forafinancial.com/wp-content/uploads/2019/03/General-Ledger.jpg" width="200%" alt="image"> </a><figcaption>  TRANSACTION HISTORY</figcaption> </figure>
+          
+        </div>
+      </div>
+    
+
+      <br><br><br>
+</section>
+
+      
+      <!--Js code for Readmore button functionality-->
+      <script>
+        function myfun1()
+    {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("but");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+
+
+    }
+      </script>
+    </body>
+</html>
